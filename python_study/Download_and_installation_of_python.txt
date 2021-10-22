@@ -1,0 +1,27 @@
+1、Python的下载
+	1、python网址：https://www.python.org/
+	2、anaconda网址：https://www.anaconda.com/
+注意：Anaconda指的是一个开源的Python发行版本，其包含了conda、Python等180多个科学包及其依赖项。
+
+2、Python的安装
+	1、Python安装比较简单，只需要双击安装即可，安装比较快（window）
+	2、anaconda同样是双击安装，但是安装过程的时间比较长，需要很多依赖项（window）
+
+3、Python IDE的安装
+	1、eclipse插件安装
+		Help—> eclipse marketplace—> pydev(较慢)
+		插件包：加压拷贝到eclipse的dropins中，重启即可
+	2、pycharm安装
+		傻瓜式安装，创建新的项目的时候直接选择sdk
+
+4、第一个案例程序Python_helloworld
+	1、在任意的IDE中创建Python项目
+	2、创建Python file文件
+	3、输入代码 print(“hello ,python”)
+	4、右击直接运行，会在控制台看到对应的结果
+
+5、交互式窗口
+	1、python:在cmd中直接输入python（配置环境变量）
+	2、ipython：找到对应的ipython的执行文件，直接执行
+		Ipython:支持变量自动补全，自动缩进，支持 bash shell 命令，内置了许多很有用的功能和函数
+		注意：Python中本身不带有这个ipython的交互，需要自行安装。首先查看计算机中是否包含pip，一般安装完之后有，执行python –m pip install --upgrade pip,先将pip进行更新，然后安装ipython：pip install ipython
