@@ -7,7 +7,16 @@ Push failed: Unable to access 'https://github.com/minchen751914788/python.git/':
 11:31	Update failed
 			unable to access 'https://github.com/minchen751914788/python.git/': OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054
 可能原因，服务器未曾响应
-11:31	Update canceled
+可能原因网络问题
+
+试着将http的取消了
+参考https://blog.csdn.net/weixin_42125310/article/details/106212710
+git config --global --unset http.proxy
+
+成功解决了这个问题
 
 
 11:33	All files are up-to-date
+
+1023日永久的token
+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
