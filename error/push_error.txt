@@ -3,3 +3,11 @@ Push failed: Unable to access 'https://github.com/minchen751914788/python.git/':
 由于登录了github账户，token登录，然后账号过期了。
 解决方案：
 1、重新登录
+
+11:31	Update failed
+			unable to access 'https://github.com/minchen751914788/python.git/': OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054
+可能原因，服务器未曾响应
+11:31	Update canceled
+
+
+11:33	All files are up-to-date
